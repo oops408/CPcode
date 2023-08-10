@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+	int d,n,w=0,a;
+	cin>>d;
+	for(int i=0;i<d;i++)
+	{
+		cin>>n;
+		for(int j=0;j<n;j++)
+		{
+			cin>>a;
+			w+=a;
+		}
+		cout<<w<<"\n";
+		w=0;
+	}
+	return 0;
+}
